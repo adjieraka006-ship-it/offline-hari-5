@@ -11,8 +11,8 @@ let mahasiswa = [
 console.log("\nDaftar Nilai Mahasiswa:");
 mahasiswa.forEach(mhs => {
     // Menambahkan status Lulus (>= 60) atau Tidak Lulus (< 60)
-    let status = mhs.nilai >= 60 ? "Lulus" : "Tidak Lulus";
-    console.log(` ${mhs.nama} - Nilai: ${mhs.nilai} (Status: ${status})`);
+    let Kelulusan = mhs.nilai >= 60 ? "Lulus" : "Tidak Lulus";
+    console.log(`Nama ${mhs.nama} - Nilai: ${mhs.nilai} (Status: ${Kelulusan})`);
 });
 
 //2. Array baru mahasiswa
